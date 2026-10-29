@@ -25,3 +25,19 @@ variable "container_port" {
   type    = number
   default = 80
 }
+
+variable "container_image" {
+  description = "Docker Hub image or ECR URI"
+  type        = string
+  default     = "nginx:latest"
+}
+
+variable "task_cpu" {
+  type    = number
+  default = 256
+}
+
+variable "task_memory" {
+  type    = number
+  default = 512
+}
