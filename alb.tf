@@ -1,4 +1,4 @@
-resource "aws_lb" "lb" {
+resource "aws_lb" "app" {
   name = "${var.project_name}-alb"
   internal = false
   load_balancer_type = "application"
