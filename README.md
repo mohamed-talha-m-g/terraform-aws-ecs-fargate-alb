@@ -131,9 +131,6 @@ terraform-aws-ecs-fargate-alb/
 git clone https://github.com/mohamed-talha-m-g/terraform-aws-ecs-fargate-alb.git
 cd terraform-aws-ecs-fargate-alb
  
-# Optional: customise values
-cp terraform.tfvars.example terraform.tfvars
- 
 terraform init
 terraform fmt -recursive
 terraform validate
