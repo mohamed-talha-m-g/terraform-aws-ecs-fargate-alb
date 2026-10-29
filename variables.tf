@@ -41,3 +41,8 @@ variable "task_memory" {
   type    = number
   default = 512
 }
+
+variable "desired_count" {
+  type = number
+  default = 2
+}
